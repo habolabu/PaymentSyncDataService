@@ -16,7 +16,7 @@ public class BillDocument implements Serializable {
     private int oId;
     private int billStatusId;
     private int paymentTypeId;
-    private int total;
+    private double total;
     private int userId;
     private Date paidDate;
     private Date createdAt = new Date(System.currentTimeMillis());

@@ -49,6 +49,6 @@ public interface ParkingBillDocumentMapper {
      */
     @Named("objectToDouble")
     static double objectToDouble(Object object) {
-        return (double) object;
+        return Double.parseDouble(String.valueOf(object));
     }
 }

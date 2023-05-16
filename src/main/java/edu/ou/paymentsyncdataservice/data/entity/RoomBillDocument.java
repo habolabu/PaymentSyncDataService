@@ -15,5 +15,5 @@ public class RoomBillDocument implements Serializable {
     private int dayAmount;
     private int oId;
     private int roomId;
-    private int total;
+    private double total;
 }

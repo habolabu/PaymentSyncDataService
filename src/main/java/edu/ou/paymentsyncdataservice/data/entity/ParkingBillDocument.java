@@ -15,6 +15,6 @@ public class ParkingBillDocument implements Serializable {
     private int billId;
     private int dayAmount;
     private int parkingId;
-    private int total;
+    private double total;
     private int parkingTypeId;
 }
